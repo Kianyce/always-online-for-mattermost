@@ -1,0 +1,61 @@
+{
+  "appName":        { "message": "Always Online for Mattermost" },
+  "appDesc":        { "message": "Keeps your Mattermost presence set to online, automatically, on every instance you use." },
+
+  "brand":          { "message": "Always Online" },
+  "forMattermost":  { "message": "for Mattermost" },
+
+  "keepOnline":     { "message": "Keep me online" },
+  "hintOff":        { "message": "Standby" },
+  "hintWaiting":    { "message": "Waiting for a Mattermost tab" },
+  "hintPaused":     { "message": "Paused, outside working hours" },
+  "hintActive":     { "message": "Active" },
+
+  "statusOnline":   { "message": "Online" },
+  "statusAway":     { "message": "Away" },
+  "statusDnd":      { "message": "Do not disturb" },
+  "statusOffline":  { "message": "Offline" },
+  "statusUnknown":  { "message": "Unknown" },
+
+  "labelInstance":     { "message": "Instance" },
+  "labelLastCheck":    { "message": "Last check" },
+  "labelCorrections":  { "message": "Corrections" },
+  "notDetected":       { "message": "Not detected" },
+  "never":             { "message": "Never" },
+
+  "justNow":     { "message": "just now" },
+  "secondsAgo":  { "message": "$count$ s ago",   "placeholders": { "count": { "content": "$1" } } },
+  "minutesAgo":  { "message": "$count$ min ago", "placeholders": { "count": { "content": "$1" } } },
+  "hoursAgo":    { "message": "$count$ h ago",   "placeholders": { "count": { "content": "$1" } } },
+
+  "recheck":        { "message": "Re-check now" },
+  "checking":       { "message": "Checking…" },
+  "settings":       { "message": "Settings" },
+  "intervalLabel":  { "message": "Check interval" },
+  "intervalEvery":  { "message": "Every $count$ min", "placeholders": { "count": { "content": "$1" } } },
+  "respectDnd":     { "message": "Respect Do Not Disturb" },
+  "workingHours":   { "message": "Only during working hours" },
+  "from":           { "message": "From" },
+  "to":             { "message": "to" },
+  "storedData":     { "message": "Stored data" },
+
+  "themeLabel":  { "message": "Theme" },
+  "langLabel":   { "message": "Language" },
+  "optSystem":   { "message": "System" },
+  "themeLight":  { "message": "Light" },
+  "themeDark":   { "message": "Dark" },
+
+  "deleteData":    { "message": "Delete stored data" },
+  "confirmDelete": { "message": "Confirm delete?" },
+  "noData":        { "message": "No data stored" },
+  "labelUser":     { "message": "User" },
+  "labelToken":    { "message": "Token" },
+
+  "dayMon": { "message": "Mon" },
+  "dayTue": { "message": "Tue" },
+  "dayWed": { "message": "Wed" },
+  "dayThu": { "message": "Thu" },
+  "dayFri": { "message": "Fri" },
+  "daySat": { "message": "Sat" },
+  "daySun": { "message": "Sun" }
+}

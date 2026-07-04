@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / tooling
+.vscode/
+.idea/
+.claude/
+*.swp
+
+# Build output
+dist/
+*.zip
+
+# Dev-only preview mock
+**/preview-mock.html

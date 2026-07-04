@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Always Online for Mattermost</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+
+    <!-- MAIN -->
+    <section class="view" id="viewMain">
+      <header class="topbar topbar-main">
+        <div class="hd-brand">
+          <img id="brandIcon" class="hd-icon" src="icons/icon-off.png" alt="">
+          <span class="hd-name" data-i18n="brand">Always Online</span>
+        </div>
+        <span class="hd-ver" id="version">v1.0.0</span>
+      </header>
+      <div class="content">
+        <section class="card master" id="masterPanel">
+          <div class="master-l">
+            <span class="master-title" data-i18n="keepOnline">Keep me online</span>
+            <span class="master-hint" id="masterHint" data-i18n="hintOff">Standby</span>
+          </div>
+          <label class="switch switch-lg"><input type="checkbox" id="enabledSwitch"><span class="track"><span class="thumb"></span></span></label>
+        </section>
+
+        <section class="card status">
+          <div class="status-head"><span class="status-dot s-unknown" id="statusDot"></span><span class="status-label" id="statusLabel" data-i18n="statusUnknown">Unknown</span></div>
+          <dl class="readout">
+            <div class="row"><dt data-i18n="labelInstance">Instance</dt><dd id="instance" data-i18n="notDetected">Not detected</dd></div>
+            <div class="row"><dt data-i18n="labelLastCheck">Last check</dt><dd id="lastCheck" data-i18n="never">Never</dd></div>
+            <div class="row"><dt data-i18n="labelCorrections">Corrections</dt><dd id="corrections">0</dd></div>
+          </dl>
+          <button class="btn-sub" id="recheckBtn" data-i18n="recheck">Re-check now</button>
+        </section>
+
+        <nav class="navlist">
+          <button class="nav-row" data-nav="settings"><span data-i18n="settings">Settings</span><span class="chev-r" aria-hidden="true"></span></button>
+          <button class="nav-row" data-nav="data"><span data-i18n="storedData">Stored data</span><span class="chev-r" aria-hidden="true"></span></button>
+        </nav>
+      </div>
+      <footer class="ft">
+        <a href="https://github.com/Kianyce/always-online-for-mattermost" target="_blank" rel="noopener" id="repoLink" class="ft-link">GitHub</a>
+      </footer>
+    </section>
+
+    <!-- SETTINGS -->
+    <section class="view" id="viewSettings" hidden>
+      <header class="topbar">
+        <button class="iconback" data-nav="main" aria-label="Back"></button>
+        <span class="topbar-title" data-i18n="settings">Settings</span>
+      </header>
+      <div class="content">
+        <div class="setrows">
+          <div class="field"><span class="field-label" data-i18n="intervalLabel">Check interval</span><div class="dd" id="ddInterval"></div></div>
+          <div class="field"><span class="field-label" data-i18n="themeLabel">Theme</span><div class="dd" id="ddTheme"></div></div>
+          <div class="field"><span class="field-label" data-i18n="langLabel">Language</span><div class="dd" id="ddLang"></div></div>
+          <div class="field"><span class="field-label" data-i18n="respectDnd">Respect Do Not Disturb</span><label class="switch"><input type="checkbox" id="respectDnd"><span class="track"><span class="thumb"></span></span></label></div>
+          <div class="field"><span class="field-label" data-i18n="workingHours">Only during working hours</span><label class="switch"><input type="checkbox" id="scheduleEnabled"><span class="track"><span class="thumb"></span></span></label></div>
+          <div class="schedule" id="scheduleBody">
+            <div class="days" id="days"></div>
+            <div class="time-range"><span class="field-label" data-i18n="from">From</span><input type="time" id="startTime" class="time"><span class="field-label" data-i18n="to">to</span><input type="time" id="endTime" class="time"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORED DATA -->
+    <section class="view" id="viewData" hidden>
+      <header class="topbar">
+        <button class="iconback" data-nav="main" aria-label="Back"></button>
+        <span class="topbar-title" data-i18n="storedData">Stored data</span>
+      </header>
+      <div class="content">
+        <dl class="data-card" id="dataList"></dl>
+      </div>
+      <footer class="view-foot">
+        <button class="btn-danger" id="deleteData" data-i18n="deleteData">Delete stored data</button>
+      </footer>
+    </section>
+
+  </div>
+
+  <script src="defaults.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "appName":        { "message": "Always Online for Mattermost" },
+  "appDesc":        { "message": "Hält deinen Mattermost-Status automatisch auf online, auf jeder Instanz, die du nutzt." },
+
+  "brand":          { "message": "Always Online" },
+  "forMattermost":  { "message": "für Mattermost" },
+
+  "keepOnline":     { "message": "Online bleiben" },
+  "hintOff":        { "message": "Bereitschaft" },
+  "hintWaiting":    { "message": "Warte auf einen Mattermost-Tab" },
+  "hintPaused":     { "message": "Pausiert, außerhalb der Arbeitszeit" },
+  "hintActive":     { "message": "Aktiv" },
+
+  "statusOnline":   { "message": "Online" },
+  "statusAway":     { "message": "Abwesend" },
+  "statusDnd":      { "message": "Nicht stören" },
+  "statusOffline":  { "message": "Offline" },
+  "statusUnknown":  { "message": "Unbekannt" },
+
+  "labelInstance":     { "message": "Instanz" },
+  "labelLastCheck":    { "message": "Letzter Check" },
+  "labelCorrections":  { "message": "Korrekturen" },
+  "notDetected":       { "message": "Nicht erkannt" },
+  "never":             { "message": "Nie" },
+
+  "justNow":     { "message": "gerade eben" },
+  "secondsAgo":  { "message": "vor $count$ s",   "placeholders": { "count": { "content": "$1" } } },
+  "minutesAgo":  { "message": "vor $count$ Min", "placeholders": { "count": { "content": "$1" } } },
+  "hoursAgo":    { "message": "vor $count$ Std", "placeholders": { "count": { "content": "$1" } } },
+
+  "recheck":        { "message": "Jetzt prüfen" },
+  "checking":       { "message": "Prüfe…" },
+  "settings":       { "message": "Einstellungen" },
+  "intervalLabel":  { "message": "Prüfintervall" },
+  "intervalEvery":  { "message": "Alle $count$ Min", "placeholders": { "count": { "content": "$1" } } },
+  "respectDnd":     { "message": "Nicht stören respektieren" },
+  "workingHours":   { "message": "Nur während der Arbeitszeit" },
+  "from":           { "message": "Von" },
+  "to":             { "message": "bis" },
+  "storedData":     { "message": "Gespeicherte Daten" },
+
+  "themeLabel":  { "message": "Design" },
+  "langLabel":   { "message": "Sprache" },
+  "optSystem":   { "message": "System" },
+  "themeLight":  { "message": "Hell" },
+  "themeDark":   { "message": "Dunkel" },
+
+  "deleteData":    { "message": "Daten löschen" },
+  "confirmDelete": { "message": "Wirklich löschen?" },
+  "noData":        { "message": "Keine Daten gespeichert" },
+  "labelUser":     { "message": "Benutzer" },
+  "labelToken":    { "message": "Token" },
+
+  "dayMon": { "message": "Mo" },
+  "dayTue": { "message": "Di" },
+  "dayWed": { "message": "Mi" },
+  "dayThu": { "message": "Do" },
+  "dayFri": { "message": "Fr" },
+  "daySat": { "message": "Sa" },
+  "daySun": { "message": "So" }
+}
