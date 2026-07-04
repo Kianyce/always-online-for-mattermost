@@ -81,6 +81,10 @@ transmitted to third parties, or shared. You can clear it anytime via
 Versions use a `YEAR.RELEASE.PATCH` scheme (e.g. `2026.1.0`). See
 [CHANGELOG.md](CHANGELOG.md) for the release history. Current version: **2026.1.0**.
 
+## License
+
+Released under the [MIT License](LICENSE).
+
 ## Disclaimer
 
 Use responsibly and in line with your organisation's policies. An "online" indicator
