@@ -1,14 +1,13 @@
 # Changelog
 
 All notable changes to this project are documented in this file.
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+Versions use a `YEAR.RELEASE.PATCH` scheme.
 
-## [1.0.0] - 2026-07-04
+## [2026.1.0] - 2026-07-04
 
-First release under the new name **Always Online for Mattermost**, restarting the
-version history under Semantic Versioning (previous calendar-style versions such as
-`2025.1.0` are superseded).
+First release under the new name **Always Online for Mattermost** (versioned above the
+previous store release `2025.1.0`).
 
 ### Added
 - **Proactive keep-alive** that refreshes presence every interval instead of only
@@ -41,4 +40,4 @@ version history under Semantic Versioning (previous calendar-style versions such
 - Shared code is cross-browser (`browser`/`chrome`), so Chrome and Firefox run the
   same scripts.
 
-[1.0.0]: https://github.com/
+[2026.1.0]: https://github.com/Kianyce/always-online-for-mattermost/releases

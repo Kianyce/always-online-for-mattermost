@@ -78,8 +78,8 @@ transmitted to third parties, or shared. You can clear it anytime via
 
 ## Versioning
 
-This project follows [Semantic Versioning](https://semver.org). See
-[CHANGELOG.md](CHANGELOG.md) for the release history. Current version: **v1.0.0**.
+Versions use a `YEAR.RELEASE.PATCH` scheme (e.g. `2026.1.0`). See
+[CHANGELOG.md](CHANGELOG.md) for the release history. Current version: **2026.1.0**.
 
 ## Disclaimer
 
